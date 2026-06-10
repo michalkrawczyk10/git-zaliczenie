@@ -4,7 +4,7 @@
 int main() {
     KeyboardInit();
     ServoInit(50); 
-
+//GIT TEST
     while(1) {
         switch (eKeyboardRead()) {
             case BUTTON_0:
